@@ -29,7 +29,7 @@ module.exports = (router) => {
   })
 
   // 一般玩家注册
-  router.post('/register', (req, res) => {
+  router.post('/userRegister', (req, res) => {
     // 读取请求参数数据
     const {
       accountname,
