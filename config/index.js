@@ -17,7 +17,7 @@ SERVER_CONFIG = {
 配置token检查白名单
 不需要进行检查token的所有路径的数组
 */
-const UN_CHECK_PATHS = ['/test', '/manage/login','/register','/cdk','/imgcode'];
+const UN_CHECK_PATHS = ['/test', '/manage/login','/userRegister','/cdk','/imgcode'];
 
 // token签名加密的私钥
 const PRIVATE_KEY = 'dof_token';
