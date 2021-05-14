@@ -1,0 +1,29 @@
+{
+  "name": "admin-server_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "blueimp-md5": "^2.10.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.17.1",
+    "http-proxy-middleware": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.3.7",
+    "multer": "^1.4.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.0",
+    "simplebig": "^0.0.3",
+    "svg-captcha": "^1.4.0",
+    "zh-transfer-utils": "^1.0.0"
+  }
+}
